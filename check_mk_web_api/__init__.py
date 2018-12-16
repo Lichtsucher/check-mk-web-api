@@ -348,8 +348,7 @@ class WebApi:
             'users': {
                 user_id: {
                     'alias': username,
-                    'password': password,
-                    **custom_attrs
+                    'password': password
                 }
             }
         })
@@ -370,8 +369,7 @@ class WebApi:
             'users': {
                 user_id: {
                     'alias': username,
-                    'automation_secret': secret,
-                    **custom_attrs
+                    'automation_secret': secret
                 }
             }
         })
